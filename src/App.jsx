@@ -15,9 +15,9 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop"; // whwn go to an
 import FAQ from "./components/FAQ/Faq";
 import ContactUs from "./components/Contact/ContactUs";
 import AboutUs from "./components/AboutUs/AboutUs";
-import Fromorchardtomarket from "./components/Fromorchardtomarket/fromorchardtomarket";
+import Fromorchardtomarket from "./components/Fromorchardtomarket/Fromorchardtomarket";
 import Dips from "./components/Dips/Dips";
-import Frozen from "./components/Frozen/Firozen";
+import Frozen from "./components/Frozen/Frozen";
 import Juice from "./components/Juices/Juice";
 function App() {
   return (
