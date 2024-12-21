@@ -22,6 +22,7 @@ import Juice from "./components/Juices/Juice";
 import Loader from "./components/Loader/Loader";
 import License from "./components/License/License";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+import NotFound from "./components/NotFound/NotFound";
 function App() {
   return (
     <Router>
@@ -53,6 +54,9 @@ function App() {
         <Route path="/Juice" element={<Juice />} />
         <Route path="/Licenses" element={<License />} />
         <Route path="/Privacy-policy" element={<PrivacyPolicy />} />
+
+        {/* Catch-all route for undefined paths */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
