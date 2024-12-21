@@ -1,0 +1,194 @@
+/* Wrapper */
+.fcm-slider-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Hide Horizontal Scrollbar */
+  .fcm-slider-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-behavior: smooth;
+    padding: 10px;
+  
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .fcm-slider-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
+  /* Images */
+  .fcm-slider-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Arrows */
+  .fcm-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(245, 242, 242, 0.9);
+    color: #080808;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+  }
+  
+  .fcm-arrow-left {
+    left: 10px;
+  }
+  
+  .fcm-arrow-right {
+    right: 10px;
+  }
+
+  .title{
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #1e7e34;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .fcm-slider-image {
+      width: 210px;
+      height: 210px;
+    }
+  
+    .fcm-arrow {
+      font-size: 20px;
+      padding: 8px;
+    }
+  }
+  
+
+  /* logo marquee */
+  .logo-marquee-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .marquee-track {
+    display: flex;
+    animation: marquee 50s linear infinite;
+  }
+  
+  .marquee-reverse .marquee-track {
+    animation: marquee-reverse 50s linear infinite;
+  }
+  
+  .marquee-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .marquee-image {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+
+
+  /* clinet  logo */
+  .clients-section {
+    width: 900px;
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #ffffff; */
+  }
+  
+ 
+  
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  
+  
+
+  
+  .client-logo {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .clients-section {
+      width: auto;
+    }
+    .clients-title {
+      font-size: 2rem;
+    }
+  
+    .clients-grid {
+      gap: 15px;
+    }
+  
+    .client-card {
+      padding: 8px;
+    }
+  }
+  

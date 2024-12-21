@@ -1,0 +1,192 @@
+/* Container */
+.about-us-container {
+    padding: 4rem 1rem;
+    font-family: "Lato", sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-image: url('/src/assets/fruitsdesktop.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  
+  /* Title */
+  .about-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #1c6d0c;
+  }
+  
+  /* Timeline */
+  .timeline {
+    margin-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+  } */
+  /* Timeline Row */
+  .timeline-row {
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    align-items: center;
+    margin: 1.5rem 0;
+    gap: 1rem;
+  }
+  
+  /* Timeline Pointer */
+  .timeline-pointer {
+    /* position: abso; */
+    width: 20px;
+    height: 20px;
+    background-color: #ffa500;
+    border: 3px solid #ffa500;
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+  .timeline-pointer::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background-color: #ffa500;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .timeline-pointer:first-of-type::before {
+    height: 50%; /* Prevents line above the first pointer */
+  }
+  
+  .timeline-pointer:last-of-type::before {
+    height: 50%; /* Prevents line below the last pointer */
+  }
+  
+  /* Empty Box */
+  .timeline-empty {
+    height: 308px;
+  }
+  
+  /* Filled Box */
+  /* .timeline-box {
+    cursor: pointer;
+    background-color: #ffa500;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 308px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  } */
+  .timeline-box {
+    cursor: pointer;
+    background-color: #ffa500;
+    color: white;
+    padding: 4rem;
+    border-radius: 36px;
+    box-shadow: 0 25px 8px rgba(0, 0, 0, 0.2);
+    height: 203px;
+    /* width: 450px; */
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+  
+  .timeline-box:hover {
+    border: 2px solid #ffa500;
+    color: #ffa500;
+    background-color: #fff;
+  }
+  
+  /* .timeline-box.left { */
+    /* text-align: right; */
+  /* } */
+  
+  /* .timeline-box.right { */
+    /* text-align: left; */
+  /* } */
+  
+  /* Factory Image */
+  .factory-image {
+    padding: 10px;
+  }
+  
+  .factory-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+
+    .timeline-pointer {
+      justify-content: center;
+      display: none;
+    }
+    .timeline-empty{
+      display: none;
+    }
+    .about-us-container {
+        background-repeat: repeat;
+        background-size: contain;
+      background-image: url('/src/assets/fruitsmobile.png');
+
+    }
+  
+    .timeline-row {
+      display: block ;
+      grid-template-columns: 1fr 30px 1fr;
+      gap: 3.5rem;
+    }
+  
+    .timeline-box {
+      font-size: 0.9rem;
+      padding: 1rem;
+      height: auto;
+      width: 100%;
+    }
+  
+    .timeline-pointer {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .timeline-pointer::before {
+      height: 100%;
+      width: 2px;
+    }
+  
+    .factory-image img {
+      width: 100%;
+      max-width: 100%; /* Full width for mobile */
+      border-radius: 20px;
+    }
+    /* p{
+        font-size: 14px;
+    } */
+  }
+  

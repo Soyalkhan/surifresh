@@ -1,0 +1,72 @@
+/* Container for Clientele Section */
+.clientele-container {
+    cursor: pointer;
+    text-align: center;
+    padding: 3rem 1rem;
+    font-family: "Lato", "Lato Placeholder", sans-serif;
+    background-color: #fdfdfd;
+  }
+  
+  /* Title Styling */
+  .clientele-title {
+    font-size: 2.5rem;
+    color: #3d6b30;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  /* Grid Layout */
+  .clientele-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Clientele Box */
+  .clientele-box {
+    flex: 1;
+    min-width: 300px; /* Ensure minimum size for responsiveness */
+    background-color: #d1e659; /* Light green background */
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Box Heading */
+  .clientele-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  /* Box Paragraph */
+  .clientele-box p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Hover Effect */
+  .clientele-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .clientele-grid {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    /* .clientele-box {
+      min-width: 100%;
+    } */
+  }
+  

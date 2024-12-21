@@ -1,0 +1,36 @@
+/* Apply global styles */
+body {
+    font-family: 'Montserrat', sans-serif; /* Default font for the body */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; /* Heading font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  p, span, div, a, button, input {
+    font-family: 'Montserrat', sans-serif; /* Default font for other elements */
+  }
+  
+  /* Example styling for headings */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Example body font styling */
+  p {
+    font-size: 16px;
+    /* font-weight: 500; */
+    /* line-height: 1.5; */
+  }
+  

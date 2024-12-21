@@ -1,0 +1,100 @@
+/* Container */
+.comparison-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 1rem auto;
+  font-family: "Lato", sans-serif;
+  border: 1px solid #ddd;
+  overflow-x: auto; /* Allow horizontal scrolling if necessary */
+  box-sizing: border-box;
+}
+
+/* Row Styling */
+.comparison-row {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap; /* Keep rows aligned horizontally */
+}
+
+.header-row {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Column Styling */
+.column {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent content overflow */
+  /* white-space: nowrap;  */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+}
+
+.column:hover {
+  overflow: visible; /* Allow text to expand on hover */
+  white-space: normal;
+}
+
+/* Header Column Styling */
+.parameter-column {
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+
+.coldpressed-header {
+  background-color: #7fc242;
+  color: white;
+  font-weight: bold;
+}
+
+.traditional-header {
+  background-color: #ff8c00;
+  color: white;
+  font-weight: bold;
+}
+
+/* Consistent Header */
+.header-row .column {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* Adjust Text Sizes for Mobile */
+@media screen and (max-width: 768px) {
+  .comparison-container {
+    padding: 10px;
+  }
+
+
+  .column {
+    display: table-cell; /* Mimic table cell layout */
+    padding: 0.8rem;
+    font-size: 0.9rem; /* Reduce text size for mobile */
+    white-space: normal; /* Allow text wrapping on mobile */
+    text-overflow: clip;
+  }
+
+  .header-row .column {
+    font-size: 14px; /* Keep headers consistent */
+  }
+}
+
+/* Ensure Proper Alignment */
+@media screen and (max-width: 480px) {
+  .comparison-container {
+    font-size: 0.85rem; /* Slightly smaller text for very small devices */
+  }
+
+  .column {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

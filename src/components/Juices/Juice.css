@@ -1,0 +1,213 @@
+/* Container */
+.juice-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Responsive Banner */
+  .juice-banner {
+    width: 100%;
+    height: 600px;
+    background-image: url('/src/assets/juice_banner.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .juice-banner {
+      background-image: url('/src/assets/juice_banner_mobile.avif');
+      height: 400px; 
+    }
+  }
+  
+  .banner-title {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    color: #e0e0e0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Heading */
+  .juice-heading {
+    font-size: 2.5rem;
+    color: #d60c17;
+    margin: 60px 0;
+    font-weight: bold;
+  }
+  
+  /* Juice Grid */
+  .juice-grid {
+    padding: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns on desktop */
+    gap: 50px;
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .juice-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+    }
+  }
+  
+  /* Juice Card */
+  .juice-card {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    background-color: #fcf9f9;
+    /* border-radius: 15px; */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;    
+    cursor: pointer;
+    border: 8px solid transparent; 
+  }
+  
+  .juice-card:hover {
+    border-color: var(--border-hover-color);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Juice Image Container */
+  .juice-image-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .juice-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .juice-image.front {
+    opacity: 1;
+  }
+  
+  .juice-card:hover .juice-image.front {
+    opacity: 0;
+  }
+  
+  .juice-image.hover {
+    opacity: 0;
+  }
+  
+  .juice-card:hover .juice-image.hover {
+    opacity: 1;
+  }
+  
+  /* Juice Name */
+  .juice-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 25px;
+    font-size:35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  /* Juice Middle Content */
+  .juice-middle-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .juice-middle-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .middle-image {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-b {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .middle-text {
+    line-height: 4.5rem;
+    font-size: 3.5rem;
+    color: #9c1f05;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .middle-text-dif {
+    /* letter-spacing:; */
+    line-height: 4.5rem;
+    font-size: 3.5rem;
+    color: #34a853;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .juice-image-container{
+        height: 250px;
+    }
+    .juice-name{
+        font-size: 18px;
+        padding: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .juice-grid{
+        gap:20px ;
+        padding: 5px;
+    }
+    .juice-middle-card {
+      flex-direction: column;
+    }
+  
+    .middle-image {
+      width: 300px;
+    }
+  
+    .middle-text,
+    .middle-text-dif {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+  

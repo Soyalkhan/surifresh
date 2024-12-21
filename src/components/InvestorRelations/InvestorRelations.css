@@ -1,0 +1,298 @@
+/* Main Container */
+.investor-relations {
+    padding: 2rem;
+  }
+  
+  /* Title Styling */
+  .main-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #3d6b30;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:60px;
+  }
+  
+  .content-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  
+  /* Layout */
+  .layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+ 
+  
+  /* Menu Styling */
+  .menu {
+    width: 100%;
+    max-width: 20rem;
+    flex-shrink: 0;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .menu-item {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    color:white;
+    background-color: #0f1d30ed;
+    border: none;    
+    cursor: pointer;
+    transition:  0.2s ease-in-out;
+    
+  }
+  
+  .menu-item:hover {
+    background-color: #fb9a2c;
+  }
+  
+  .menu-item-active {
+    background-color: #f5f5f5;
+    color: #f19225;
+    border: 2px solid #f19225;
+  }
+  .menu-item-active:hover {
+    color: #f0eeed;
+    border: 2px solid #f19225;
+  }
+  
+  /* Menu Item Icon */
+  .menu-item-icon {
+    font-size: 1.125rem;
+  }
+  
+  /* Content Styling */
+  .content {
+    flex: 1;
+  }
+  
+  .content-container {
+    max-width: 20rem;
+  }
+  
+  .content-box {
+    border: 1px solid #e5e5e5;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .download-button {
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .download-button:hover {
+    background-color: #2c9b0d;
+  }
+  
+  .download-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .view-button,
+  .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button {
+    background-color: #120836; /* Blue for view button */
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .download-button {
+    background-color: #084216; /* Green for download button */
+  }
+  
+  .download-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .button-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  /* Directors Table */
+.directors-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.directors-table th,
+.directors-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.directors-table th {
+  background-color: #ffdd87;
+  font-weight: bold;
+}
+
+.directors-table tr:nth-child(even) {
+  background-color: #fdf9e6;
+}
+
+.directors-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.investor-grievances {
+  margin-top: 1rem;
+}
+
+.grievance-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.grievance-email a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grievance-email a:hover {
+  text-decoration: underline;
+}
+
+.policy-list {
+  max-height: 70vh; /* Restrict the height to 70% of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 10px; /* Add padding for better usability */
+}
+
+.policy-item {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #fdf9e6;
+}
+
+.policy-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-button,
+.download-button {
+  width: 112px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.view-button {
+  background-color: #007bff;
+}
+
+.download-button {
+  background-color: #28a745;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
+
+.download-button:hover {
+  background-color: #1e7e34;
+}
+
+.button-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.policy-list::-webkit-scrollbar {
+  width: 8px; /* Custom scrollbar width */
+}
+
+.policy-list::-webkit-scrollbar-thumb {
+  background-color: #c5dd52; /* Color of the scrollbar */
+  border-radius: 4px; /* Rounded scrollbar */
+}
+
+.policy-list::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Scrollbar track color */
+}
+
+@media (min-width: 768px) {
+  
+    .policy-item {
+      margin-top: 10px;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      background-color: #fdf9e6;
+  }
+  
+  .layout {
+    flex-direction: row;
+  }
+}
