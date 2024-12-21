@@ -3,25 +3,25 @@ import "./LogoSlider.css";
 
 const LogoSlider = () => {
   const images1 = [
-    "src/assets/1.avif",
-    "src/assets/2.avif",
-    "src/assets/3.avif",
-    "src/assets/4.avif",
-    "src/assets/5.avif",
-    "src/assets/6.avif",
-    "src/assets/7.avif",
-    "src/assets/8.avif",
+    "/assets/2.avif",
+    "/assets/3.avif",
+    "/assets/4.avif",
+    "/assets/5.avif",
+    "/assets/6.avif",
+    "/assets/1.avif",
+    "/assets/7.avif",
+    "/assets/8.avif",
   ];
 
   const images2 = [
-    "src/assets/9.avif",
-    "src/assets/10.avif",
-    "src/assets/11.avif",
-    "src/assets/12.avif",
-    "src/assets/13.avif",
-    "src/assets/14.avif",
-    "src/assets/15.avif",
-    "src/assets/16.avif",
+    "/assets/9.avif",
+    "/assets/10.avif",
+    "/assets/11.avif",
+    "/assets/12.avif",
+    "/assets/13.avif",
+    "/assets/14.avif",
+    "/assets/15.avif",
+    "/assets/16.avif",
   ];
 
   return (
