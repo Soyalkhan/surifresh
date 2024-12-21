@@ -1,6 +1,7 @@
 /* Container */
 .comparison-container {
-  padding: 20px;
+  width: 1280px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   max-width: 100%;

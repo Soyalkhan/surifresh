@@ -1,78 +1,114 @@
 /* Container for Key Factors */
 .key-factors-container {
-    text-align: center;
-    padding: 3rem 1rem;
-    font-family: "Lato", "Lato Placeholder", sans-serif;
-    background-color: #fdfdfd;
-  }
-  
-  /* Title Styling */
-  .key-factors-title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.5rem;
-    color: #3d6b30;
-    margin-bottom: 2rem;
-    font-weight: bold;
-  }
-  
-  /* Top Row Grid Layout */
-  .key-factors-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Bottom Row Flex Layout */
-  .key-factors-bottom {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 1rem auto 0 auto;
-  }
-  
-  /* Individual Key Factor Box */
-  .key-factor {
-    padding: 90px;
-    background-color: #ffea47; /* Yellow Background */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: 3px;
-    font-weight:500;
-    color: #000;
-    border-radius: 10px;
-    height: 150px; /* Box Height */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    flex: 1;
-  }
-  
-  /* Hover Effect */
-  .key-factor:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
-    .key-factors-grid {
-      grid-template-columns: 1fr; /* Stack top row vertically on mobile */
-    }
-  
-    .key-factors-bottom {
-      height: 260px;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-family: "Lato", sans-serif;
+  background-color: #fdfdfd;
+}
 
-      flex-direction: column; /* Stack bottom row vertically on mobile */
-    }
-  
-    .key-factor {
-      padding: 20px;
-      height: 120px; /* Smaller height for mobile */
-    }
+/* Title Styling */
+.key-factors-title {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #3d6b30;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+/* Top Row Grid Layout */
+.key-factors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Bottom Row Flex Layout */
+.key-factors-bottom {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 1rem auto 0 auto;
+}
+
+/* Individual Key Factor Box */
+.key-factor {
+  position: relative;
+  padding: 1rem;
+  background-color: #ffea47; /* Yellow Background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+  border-radius: 10px;
+  min-height: 200px; /* Ensures space for both title and description */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+/* Hover Effect */
+.key-factor:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-color: #ffea47;
+}
+
+/* Title inside the card */
+.key-factor-title {
+  color: #000;
+  font-weight: 400;
+  font-size: 30px; /* Adjusted font size for the title */
+  position: absolute; /* Ensure it stays centered */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the title */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Hidden description */
+.key-factor-description {
+  opacity: 0;
+  visibility: hidden;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.4; /* Adjust line height for better readability */
+  padding: 0.5rem;
+  text-align: justify; /* Ensures text is justified */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* On hover, show the description and hide the title */
+.key-factor:hover .key-factor-description {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.key-factor:hover .key-factor-title {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .key-factors-grid {
+    grid-template-columns: 1fr; /* Stack top row vertically on mobile */
   }
-  
+
+  .key-factors-bottom {
+    flex-direction: column; /* Stack bottom row vertically on mobile */
+  }
+
+  .key-factor {
+    height: auto; /* Adjust height dynamically for content */
+    min-height: 150px;
+  }
+}

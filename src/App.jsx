@@ -19,10 +19,11 @@ import Fromorchardtomarket from "./components/Fromorchardtomarket/Fromorchardtom
 import Dips from "./components/Dips/Dips";
 import Frozen from "./components/Frozen/Frozen";
 import Juice from "./components/Juices/Juice";
+import Loader from "./components/Loader/Loader";
 function App() {
   return (
     <Router>
-       <ScrollToTop/> {/* Ensure the page scrolls to the top on route change */}
+       <ScrollToTop/> 
       <Header />
       <Routes>
         <Route

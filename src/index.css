@@ -1,3 +1,19 @@
+  /* Import Custom Fonts */
+  /* @font-face {
+    font-family: 'CustomFont-Galastone';
+    src: url('./assets/font/Galastone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CustomFont-Galastone-bold';
+    src: url('./assets/font/Galastone.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+   */
+
 /* Apply global styles */
 body {
     font-family: 'Montserrat', sans-serif; /* Default font for the body */
@@ -34,3 +50,6 @@ body {
     /* line-height: 1.5; */
   }
   
+
+
+

@@ -98,9 +98,9 @@ function Footer() {
           </div>
           <nav className="main-nav">
             <ul>
-              <li><Link to="/Juice">Juice</Link></li>
-              <li><Link to="/Frozen">Frozen</Link></li>
-              <li><Link to="/Dips">Dips</Link></li>
+              <li><Link to="/Juice">Our Products</Link></li>
+              {/* <li><Link to="/Frozen">Frozen</Link></li>
+              <li><Link to="/Dips">Dips</Link></li> */}
               <li><Link to="/about-us">About Us</Link></li>
               <li><Link to="/contact-us">Contact Us</Link></li>
               <li> <Link to="/investor-relations">Investor Relations</Link></li>
@@ -114,12 +114,12 @@ function Footer() {
           <h2 style={{color:"#ff8c00", fontWeight:"bold"}}>Addresses</h2>
           <div className="addresses">
             <div className="registered-office">
-              <p style={{color:"#006B54", fontWeight:"bold"}}>Registered Office address-</p>
+              <p style={{color:"#006B54", fontWeight:"bold"}}>Registered Office Address-</p>
               <p>C-129, New Sabzi Mandi, Azadpur, Delhi- 110033</p>
               
               
             <div className="registered-office">
-            <p style={{color:"#006B54", fontWeight:"bold"}}>Manufacturing Plant address-</p>
+            <p style={{color:"#006B54", fontWeight:"bold"}}>Manufacturing Plant Address-</p>
               <p>Plot no- 576, HSIIDC, Rai Industrial Estate, Sector 38, Sonipat, Haryana-131029</p>
 
               </div>
@@ -127,7 +127,7 @@ function Footer() {
             </div>
 
             <div className="bangalore-office">
-              <p style={{color:"#006B54", fontWeight:"bold"}}>Bangalore address-</p>
+              <p style={{color:"#006B54", fontWeight:"bold"}}>Bangalore Address-</p>
               <p>Shop number G-09, APMC FRUIT MARKET, Electronic City Phase-2, Bangalore- 560100</p>
             </div>
             

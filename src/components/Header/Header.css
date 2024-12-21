@@ -176,6 +176,7 @@ body.menu-open {
 }
 
 .mobile-secondary-logo {
+  display: none;
   left: 110px;
   height: 248px;
   position: absolute;

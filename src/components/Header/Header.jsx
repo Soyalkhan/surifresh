@@ -128,14 +128,15 @@ const Header = () => {
         <div className="dropdown nav-item">
           Our Products
           <div className="dropdown-menu">
-            <Link to="/Dips">
-              <li>Dips</li>
+          <Link to="/Juice">
+              <li>Chilled Coldpressed Juices</li>
             </Link>
             <Link to="/Frozen">
-              <li>Frozen</li>
+              <li>Frozen Coldpressed Juices</li>
             </Link>
-            <Link to="/Juice">
-              <li>Juices</li>
+            
+            <Link to="/Dips">
+              <li>Dips</li>
             </Link>
           </div>
         </div>

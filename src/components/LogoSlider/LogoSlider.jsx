@@ -27,7 +27,7 @@ const LogoSlider = () => {
   return (
     <div className="logo-slider-container">
       {/* Left-to-Right Slider */}
-      <h2 className="Logo-slider-title" style={{textAlign:"Center"}}>OUR PARTNERS</h2>
+      <h2 className="Logo-slider-title" style={{textAlign:"Center"}}>OUR CLIENTS</h2>
       <div className="marquee left-to-right">
         <div className="marquee-track">
           {images1.map((src, index) => (
