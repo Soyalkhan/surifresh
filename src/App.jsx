@@ -20,6 +20,8 @@ import Dips from "./components/Dips/Dips";
 import Frozen from "./components/Frozen/Frozen";
 import Juice from "./components/Juices/Juice";
 import Loader from "./components/Loader/Loader";
+import License from "./components/License/License";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 function App() {
   return (
     <Router>
@@ -49,6 +51,8 @@ function App() {
         <Route path="/Dips" element={<Dips />} />
         <Route path="/Frozen" element={<Frozen />} />
         <Route path="/Juice" element={<Juice />} />
+        <Route path="/Licenses" element={<License />} />
+        <Route path="/Privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </Router>

@@ -144,7 +144,7 @@ const Header = () => {
           <li className="nav-item">About Us</li>
         </Link>
         <Link to="/faq">
-          <li className="nav-item">FAQs</li>
+          <li className="nav-item"> FAQ's</li>
         </Link>
         <Link to="/contact-us">
           <li className="nav-item">Contact Us</li>
@@ -173,13 +173,13 @@ const Header = () => {
               Frozen
             </Link>
             <Link to="/Juice" onClick={toggleMenu}>
-              Juice
+              Juices
             </Link>
             <Link to="/about-us" onClick={toggleMenu}>
               About Us
             </Link>
             <Link to="/faq" onClick={toggleMenu}>
-              FAQs
+              FAQ's
             </Link>
             <Link to="/contact-us" onClick={toggleMenu}>
               Contact Us

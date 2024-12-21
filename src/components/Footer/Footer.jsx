@@ -104,7 +104,7 @@ function Footer() {
               <li><Link to="/about-us">About Us</Link></li>
               <li><Link to="/contact-us">Contact Us</Link></li>
               <li> <Link to="/investor-relations">Investor Relations</Link></li>
-              <li><Link to="/faq">FAQs</Link></li>
+              <li><Link to="/faq"> FAQ's</Link></li>
             </ul>
           </nav>
         </div>
@@ -162,8 +162,8 @@ function Footer() {
           </div>
           <div className="footer-links">
             <p>©2024 SurifreshExtract. All Rights Reserved</p>
-            <Link to="/privacy">Privacy Policy</Link>
-            <Link to="/licenses">Licenses</Link>
+            <Link to="/Privacy-policy">Privacy Policy</Link>
+            <Link to="/Licenses">Licenses</Link>
           </div>
           <p className="credits">Handcrafted by <span ><Link style={{color:"orange"}} to="https://delhidigital.co">Delhi Digital Co.</Link></span> </p>
         </div>

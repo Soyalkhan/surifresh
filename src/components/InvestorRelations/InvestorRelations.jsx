@@ -236,11 +236,6 @@
 // }
 
 
-
-
-
-'use client';
-
 import { useState } from 'react';
 import { FiDownload, FiEye } from 'react-icons/fi';
 import './InvestorRelations.css';
