@@ -170,10 +170,10 @@ const Header = () => {
               Dips
             </Link>
             <Link to="/Frozen" onClick={toggleMenu}>
-              Frozen
+            Frozen Coldpressed Juices
             </Link>
             <Link to="/Juice" onClick={toggleMenu}>
-              Juices
+            Chilled Coldpressed Juices
             </Link>
             <Link to="/about-us" onClick={toggleMenu}>
               About Us
