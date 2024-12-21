@@ -2,27 +2,27 @@
 // import "./Juice.css";
 
 // const productSet1 = [
-//   { id: 1, image: "/src/assets/aamras.jpg", name: "Aamras", labelColor: "#f8c53a" , hoverIMG: "/src/assets/aamras_HOVER.jpg" },
-//   { id: 2, image: "/src/assets/mangochia.png", name: "Mango Chia", labelColor: "#f7c522"  , hoverIMG: "/src/assets/mangochia_HOVER.jpg"},
-//   { id: 3, image: "/src/assets/valenciaorange.jpg", name: "Valencia Orange", labelColor: "#f48521"  , hoverIMG: "/src/assets/valenciaorange_HOVER.jpg"},
-//   { id: 4, image: "/src/assets/mangococonut.png", name: "Mango Coconut", labelColor: "#da9525" , hoverIMG: "/src/assets/" },
-//   { id: 5, image: "/src/assets/pomegranate.png", name: "Pomegranate", labelColor: "#e7626f" , hoverIMG: "/src/assets/pomegranate_HOVER.jpg" },
-//   { id: 6, image: "/src/assets/apple.png", name: "Apple", labelColor: "#b01f09" , hoverIMG: "/src/assets/" },
+//   { id: 1, image: "/assets/aamras.jpg", name: "Aamras", labelColor: "#f8c53a" , hoverIMG: "/assets/aamras_HOVER.jpg" },
+//   { id: 2, image: "/assets/mangochia.png", name: "Mango Chia", labelColor: "#f7c522"  , hoverIMG: "/assets/mangochia_HOVER.jpg"},
+//   { id: 3, image: "/assets/valenciaorange.jpg", name: "Valencia Orange", labelColor: "#f48521"  , hoverIMG: "/assets/valenciaorange_HOVER.jpg"},
+//   { id: 4, image: "/assets/mangococonut.png", name: "Mango Coconut", labelColor: "#da9525" , hoverIMG: "/assets/" },
+//   { id: 5, image: "/assets/pomegranate.png", name: "Pomegranate", labelColor: "#e7626f" , hoverIMG: "/assets/pomegranate_HOVER.jpg" },
+//   { id: 6, image: "/assets/apple.png", name: "Apple", labelColor: "#b01f09" , hoverIMG: "/assets/" },
 // ];
 
 // const productSet2 = [
-//   { id: 7, image: "/src/assets/mixfruit.png", name: "Mix Fruit", labelColor: "#c90a63" , hoverIMG: "/src/assets/" },
-//   { id: 8, image: "/src/assets/kokum.png", name: "Kokum", labelColor: "#911c24"  , hoverIMG: "/src/assets/"},
-//   { id: 9, image: "/src/assets/applebeetroot.png", name: "Apple Beetroot Carrot", labelColor: "#a32a40" , hoverIMG: "/src/assets/" },
-//   { id: 10, image: "/src/assets/berrydelight.png", name: "Berry Delight", labelColor: "#682941" , hoverIMG: "/src/assets/berrydelight_HOVER.jpg" },
-//   { id: 11, image: "/src/assets/watermelon.png", name: "Watermelon", labelColor: "#d14245"  , hoverIMG: "/src/assets/watermelon_HOVER.png"},
-//   { id: 13, image: "/src/assets/guavachilli.png", name: "Guava Chilli", labelColor: "#eea8a4"  , hoverIMG: "/src/assets/guavachilli_HOVER.jpg"},
-//   { id: 12, image: "/src/assets/sugarcane.png", name: "Sugarcane", labelColor: "#c5c061" , hoverIMG: "/src/assets/sugarcane_HOVER.jpg" },
-//   { id: 14, image: "/src/assets/coconutwater.png", name: "Coconut Water", labelColor: "#b0cb5e"  , hoverIMG: "/src/assets/"},
-//   { id: 15, image: "/src/assets/aampanna.png", name: "Aam Panna", labelColor: "#a2c653" , hoverIMG: "/src/assets/aampanna_HOVER.jpg" },
-//   { id: 16, image: "/src/assets/pineapple.png", name: "Pineapple", labelColor: "#74ad72" , hoverIMG: "/src/assets/" },
-//   { id: 17, image: "/src/assets/jamun.png", name: "Jamun", labelColor: "#5b516b" , hoverIMG: "/src/assets/" },
-//   { id: 18, image: "/src/assets/goldkiwiblast.png", name: "Gold Kiwi Blast", labelColor: "#f9d670" , hoverIMG: "/src/assets/goldkiwiblast_HOVER.jpg" },
+//   { id: 7, image: "/assets/mixfruit.png", name: "Mix Fruit", labelColor: "#c90a63" , hoverIMG: "/assets/" },
+//   { id: 8, image: "/assets/kokum.png", name: "Kokum", labelColor: "#911c24"  , hoverIMG: "/assets/"},
+//   { id: 9, image: "/assets/applebeetroot.png", name: "Apple Beetroot Carrot", labelColor: "#a32a40" , hoverIMG: "/assets/" },
+//   { id: 10, image: "/assets/berrydelight.png", name: "Berry Delight", labelColor: "#682941" , hoverIMG: "/assets/berrydelight_HOVER.jpg" },
+//   { id: 11, image: "/assets/watermelon.png", name: "Watermelon", labelColor: "#d14245"  , hoverIMG: "/assets/watermelon_HOVER.png"},
+//   { id: 13, image: "/assets/guavachilli.png", name: "Guava Chilli", labelColor: "#eea8a4"  , hoverIMG: "/assets/guavachilli_HOVER.jpg"},
+//   { id: 12, image: "/assets/sugarcane.png", name: "Sugarcane", labelColor: "#c5c061" , hoverIMG: "/assets/sugarcane_HOVER.jpg" },
+//   { id: 14, image: "/assets/coconutwater.png", name: "Coconut Water", labelColor: "#b0cb5e"  , hoverIMG: "/assets/"},
+//   { id: 15, image: "/assets/aampanna.png", name: "Aam Panna", labelColor: "#a2c653" , hoverIMG: "/assets/aampanna_HOVER.jpg" },
+//   { id: 16, image: "/assets/pineapple.png", name: "Pineapple", labelColor: "#74ad72" , hoverIMG: "/assets/" },
+//   { id: 17, image: "/assets/jamun.png", name: "Jamun", labelColor: "#5b516b" , hoverIMG: "/assets/" },
+//   { id: 18, image: "/assets/goldkiwiblast.png", name: "Gold Kiwi Blast", labelColor: "#f9d670" , hoverIMG: "/assets/goldkiwiblast_HOVER.jpg" },
 // ];
 
 // const Juice = () => {
@@ -63,7 +63,7 @@
 //       <div className="juice-middle-content">
 //         <div className="juice-middle-card">
 //           <img
-//             src="/src/assets/juciemid-1.avif"
+//             src="/assets/juciemid-1.avif"
 //             alt="Valencia Orange"
 //             className="middle-image"
 //           />
@@ -74,7 +74,7 @@
 //             <h2 className="middle-text-dif">FRESH</h2>
 //           </div>
 //           <img
-//             src="/src/assets/juicemid-2.avif"
+//             src="/assets/juicemid-2.avif"
 //             alt="Coconut Water"
 //             className="middle-image"
 //           />
@@ -116,132 +116,132 @@ const Juice = () => {
   const productSet1 = [
     {
       id: 1,
-      image: "/src/assets/aamras.png",
+      image: "/assets/aamras.png",
       name: "Aamras",
       labelColor: "#f8c53a",
-      hoverIMG: "/src/assets/aamras_HOVER.jpg",
+      hoverIMG: "/assets/aamras_HOVER.jpg",
     },
     {
       id: 2,
-      image: "/src/assets/mangochia.png",
+      image: "/assets/mangochia.png",
       name: "Mango Chia",
       labelColor: "#f7c522",
-      hoverIMG: "/src/assets/mangochia_HOVER.jpg",
+      hoverIMG: "/assets/mangochia_HOVER.jpg",
     },
     {
       id: 3,
-      image: "/src/assets/valenciaorange.png",
+      image: "/assets/valenciaorange.png",
       name: "Valencia Orange",
       labelColor: "#f48521",
-      hoverIMG: "/src/assets/valenciaorange_HOVER.jpg",
+      hoverIMG: "/assets/valenciaorange_HOVER.jpg",
     },
     {
       id: 4,
-      image: "/src/assets/mangococonut.png",
+      image: "/assets/mangococonut.png",
       name: "Mango Coconut",
       labelColor: "#da9525",
-      hoverIMG: "/src/assets/mangococonut.png",
+      hoverIMG: "/assets/mangococonut.png",
     },
     {
       id: 5,
-      image: "/src/assets/pomegranate.png",
+      image: "/assets/pomegranate.png",
       name: "Pomegranate",
       labelColor: "#e7626f",
-      hoverIMG: "/src/assets/pomegranate_HOVER.jpg",
+      hoverIMG: "/assets/pomegranate_HOVER.jpg",
     },
     {
       id: 6,
-      image: "/src/assets/apple.png",
+      image: "/assets/apple.png",
       name: "Apple",
       labelColor: "#b01f09",
-      hoverIMG: "/src/assets/apple.png",
+      hoverIMG: "/assets/apple.png",
     },
   ];
 
   const productSet2 = [
     {
       id: 7,
-      image: "/src/assets/mixfruit.png",
+      image: "/assets/mixfruit.png",
       name: "Mix Fruit",
       labelColor: "#c90a63",
-      hoverIMG: "/src/assets/mixfruit.png",
+      hoverIMG: "/assets/mixfruit.png",
     },
     {
       id: 8,
-      image: "/src/assets/kokum.png",
+      image: "/assets/kokum.png",
       name: "Kokum",
       labelColor: "#911c24",
-      hoverIMG: "/src/assets/kokum.png",
+      hoverIMG: "/assets/kokum.png",
     },
     {
       id: 9,
-      image: "/src/assets/applebeetroot.png",
+      image: "/assets/applebeetroot.png",
       name: "Apple Beetroot Carrot",
       labelColor: "#a32a40",
-      hoverIMG: "/src/assets/applebeetroot.png",
+      hoverIMG: "/assets/applebeetroot.png",
     },
     {
       id: 10,
-      image: "/src/assets/berrydelight.png",
+      image: "/assets/berrydelight.png",
       name: "Berry Delight",
       labelColor: "#682941",
-      hoverIMG: "/src/assets/berrydelight_HOVER.jpg",
+      hoverIMG: "/assets/berrydelight_HOVER.jpg",
     },
     {
       id: 11,
-      image: "/src/assets/watermelon.png",
+      image: "/assets/watermelon.png",
       name: "Watermelon",
       labelColor: "#d14245",
-      hoverIMG: "/src/assets/watermelon.png",
+      hoverIMG: "/assets/watermelon.png",
     },
     {
       id: 13,
-      image: "/src/assets/guavachilli.png",
+      image: "/assets/guavachilli.png",
       name: "Guava Chilli",
       labelColor: "#eea8a4",
-      hoverIMG: "/src/assets/guavachilli_HOVER.jpg",
+      hoverIMG: "/assets/guavachilli_HOVER.jpg",
     },
     {
       id: 12,
-      image: "/src/assets/sugarcane.png",
+      image: "/assets/sugarcane.png",
       name: "Sugarcane",
       labelColor: "#c5c061",
-      hoverIMG: "/src/assets/sugarcane_HOVER.jpg",
+      hoverIMG: "/assets/sugarcane_HOVER.jpg",
     },
     {
       id: 14,
-      image: "/src/assets/coconutwater.png",
+      image: "/assets/coconutwater.png",
       name: "Coconut Water",
       labelColor: "#b0cb5e",
-      hoverIMG: "/src/assets/coconutwater.png",
+      hoverIMG: "/assets/coconutwater.png",
     },
     {
       id: 15,
-      image: "/src/assets/aampanna.png",
+      image: "/assets/aampanna.png",
       name: "Aam Panna",
       labelColor: "#a2c653",
-      hoverIMG: "/src/assets/aampanna_HOVER.jpg",
+      hoverIMG: "/assets/aampanna_HOVER.jpg",
     },
     {
       id: 16,
-      image: "/src/assets/pineapple.png",
+      image: "/assets/pineapple.png",
       name: "Pineapple",
       labelColor: "#74ad72",
-      hoverIMG: "/src/assets/pineapple.png",
+      hoverIMG: "/assets/pineapple.png",
     },
     {
       id: 17,
-      image: "/src/assets/jamun.png",
+      image: "/assets/jamun.png",
       name: "Jamun",
       labelColor: "#5b516b",
-      hoverIMG: "/src/assets/jamun.png",
+      hoverIMG: "/assets/jamun.png",
     },
     {
       id: 18,
-      image: "/src/assets/goldkiwiblast.png",
+      image: "/assets/goldkiwiblast.png",
       name: "Gold Kiwi Blast",
       labelColor: "#f9d670",
-      hoverIMG: "/src/assets/goldkiwiblast_HOVER.jpg",
+      hoverIMG: "/assets/goldkiwiblast_HOVER.jpg",
     },
   ];
 
@@ -296,7 +296,7 @@ const Juice = () => {
       <div className="juice-middle-content">
         <div className="juice-middle-card">
           <img
-            src="/src/assets/juciemid-1.avif"
+            src="/assets/juciemid-1.avif"
             alt="Valencia Orange"
             className="middle-image"
           />
@@ -310,7 +310,7 @@ const Juice = () => {
             <h2 className="middle-text-dif">FRESH</h2>
           </div>
           <img
-            src="/src/assets/juicemid-2.avif"
+            src="/assets/juicemid-2.avif"
             alt="Coconut Water"
             className="middle-image"
           />

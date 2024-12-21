@@ -8,7 +8,7 @@
   
   /* Dips Banner Section */
   .dips-banner {
-    background-image: url('/src/assets/dips_banner.avif'); /* Replace with your banner image */
+    background-image: url('/assets/dips_banner.avif'); /* Replace with your banner image */
     background-size: cover;
     background-position: center;
     height: 600px;

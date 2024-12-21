@@ -8,7 +8,7 @@
   
   /* frozen Banner Section */
   .frozen-banner {
-    background-image: url('/src/assets/FrozenBanner.avif');
+    background-image: url('/assets/FrozenBanner.avif');
     background-size: cover;
     background-position: center;
     height: 600px;

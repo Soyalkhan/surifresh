@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "../src/components/Header/Header";
+import Header from "./components/Header/Header";
 import HeroSlider from "./components/HeroSlider/HeroSlider";
 import MarqueeProduct from "./components/ProductMarquee/MarqueeProduct";
 import FeaturedProduct from "./components/Featuredproducts/FeaturedProduct";

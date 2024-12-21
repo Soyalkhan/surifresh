@@ -27,7 +27,7 @@
 
 //       {/* Primary Logo */}
 //       <div className="primary-logo">
-//         <Link to='/'> <img src="/src/assets/main.png" alt="Primary Logo" /> </Link>
+//         <Link to='/'> <img src="/assets/main.png" alt="Primary Logo" /> </Link>
 //       </div>
 
 //       {/* Navigation Links (Desktop Only) */}
@@ -43,7 +43,7 @@
 
 //       {/* Secondary Logo */}
 //       <div className="secondary-logo">
-//         <img src="/src/assets/vt.png" alt="Secondary Logo" />
+//         <img src="/assets/vt.png" alt="Secondary Logo" />
 //       </div>
 
 //       {/* Mobile Menu */}
@@ -51,7 +51,7 @@
 //         <div className="mobile-menu-content">
 //           {/* Primary Logo (Top-left when menu opens) */}
 //           <div className="mobile-primary-logo">
-//             <img src="/src/assets/main.avif" alt="Primary Logo" />
+//             <img src="/assets/main.avif" alt="Primary Logo" />
 //           </div>
 
 //           {/* Centered Links */}
@@ -65,7 +65,7 @@
 
 //           {/* Secondary Logo at Bottom */}
 //           <div className="mobile-secondary-logo">
-//             <img src="/src/assets/vt.png" alt="Secondary Logo" />
+//             <img src="/assets/vt.png" alt="Secondary Logo" />
 //           </div>
 //         </div>
 //       </nav>
@@ -110,7 +110,7 @@ const Header = () => {
       {/* Primary Logo */}
       <div className="primary-logo">
         <Link to="/">
-          <img src="/src/assets/main.png" alt="Primary Logo" />
+          <img src="/assets/main.png" alt="Primary Logo" />
         </Link>
       </div>
 
@@ -155,14 +155,14 @@ const Header = () => {
 
       {/* Secondary Logo */}
       <div className="secondary-logo">
-        <img src="/src/assets/vt.png" alt="Secondary Logo" />
+        <img src="/assets/vt.png" alt="Secondary Logo" />
       </div>
 
       {/* Mobile Menu */}
       <nav className={`mobile-menu ${isMenuOpen ? "menu-active" : ""}`}>
         <div className="mobile-menu-content">
           <div className="mobile-primary-logo">
-            <img src="/src/assets/main.avif" alt="Primary Logo" />
+            <img src="/assets/main.avif" alt="Primary Logo" />
           </div>
           <div className="mobile-links">
             <Link to="/Dips" onClick={toggleMenu}>
@@ -188,7 +188,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="mobile-secondary-logo">
-            <img src="/src/assets/vt.png" alt="Secondary Logo" />
+            <img src="/assets/vt.png" alt="Secondary Logo" />
           </div>
         </div>
       </nav>

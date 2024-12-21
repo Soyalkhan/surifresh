@@ -52,7 +52,7 @@
 //                 <div className="policy-name">{policy.name}</div>
 //                 <div className="button-group">
 //                   <a
-//                     href={`/src/assets/${policy.file}`}
+//                     href={`/assets/${policy.file}`}
 //                     target="_blank"
 //                     rel="noopener noreferrer"
 //                     className="view-button"
@@ -60,7 +60,7 @@
 //                     View <FiEye className="button-icon" />
 //                   </a>
 //                   <a
-//                     href={`/src/assets/${policy.file}`}
+//                     href={`/assets/${policy.file}`}
 //                     download
 //                     className="download-button"
 //                   >
@@ -185,7 +185,7 @@
 //             <div className="content-box">{currentItem.name}</div>
 //             <div className="button-group">
 //               <a
-//                 href={`/src/assets/${currentItem.file}`}
+//                 href={`/assets/${currentItem.file}`}
 //                 target="_blank"
 //                 rel="noopener noreferrer"
 //                 className="view-button"
@@ -193,7 +193,7 @@
 //                 View <FiEye className="button-icon" />
 //               </a>
 //               <a
-//                 href={`/src/assets/${currentItem.file}`}
+//                 href={`/assets/${currentItem.file}`}
 //                 download
 //                 className="download-button"
 //               >
@@ -294,7 +294,7 @@ export default function InvestorRelations() {
                 {policy.file ? (
                   <div className="button-group">
                     <a
-                      href={`/src/assets/${policy.file}`}
+                      href={`/assets/${policy.file}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="view-button"
@@ -302,7 +302,7 @@ export default function InvestorRelations() {
                       View <FiEye className="button-icon" />
                     </a>
                     <a
-                      href={`/src/assets/${policy.file}`}
+                      href={`/assets/${policy.file}`}
                       download
                       className="download-button"
                     >
@@ -430,7 +430,7 @@ export default function InvestorRelations() {
             <div className="content-box">{currentItem.name}</div>
             <div className="button-group">
               <a
-                href={`/src/assets/${currentItem.file}`}
+                href={`/assets/${currentItem.file}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="view-button"
@@ -438,7 +438,7 @@ export default function InvestorRelations() {
                 View <FiEye className="button-icon" />
               </a>
               <a
-                href={`/src/assets/${currentItem.file}`}
+                href={`/assets/${currentItem.file}`}
                 download
                 className="download-button"
               >

@@ -41,7 +41,7 @@ const AboutUs = () => {
       <h1 className="about-us-title">Our Story</h1>
 
       <div className="factory-image">
-        <img src="src/assets/factoryimagesuri.avif" alt="" />
+        <img src="/assets/factoryimagesuri.avif" alt="" />
       </div>
       <div className="timeline">
         {milestones.map((milestone, index) => (

@@ -10,7 +10,7 @@
   .juice-banner {
     width: 100%;
     height: 600px;
-    background-image: url('/src/assets/juice_banner.avif');
+    background-image: url('/assets/juice_banner.avif');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -20,7 +20,7 @@
   
   @media (max-width: 768px) {
     .juice-banner {
-      background-image: url('/src/assets/juice_banner_mobile.avif');
+      background-image: url('/assets/juice_banner_mobile.avif');
       height: 400px; 
     }
   }

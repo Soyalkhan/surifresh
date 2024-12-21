@@ -1,7 +1,7 @@
 // import React from 'react';
 // import './Footer.css';
-// import logo33 from '/src/assets/main.avif';
-// import logoSuri from '/src/assets/vt.png';
+// import logo33 from '/assets/main.avif';
+// import logoSuri from '/assets/vt.png';
 
 // function Footer() {
 //   return (
@@ -84,8 +84,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './Footer.css';
 import { FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa';
-import logo33 from '/src/assets/main.png';
-import logoSuri from '/src/assets/vt.png';
+import logo33 from '/assets/main.png';
+import logoSuri from '/assets/vt.png';
 
 function Footer() {
   return (

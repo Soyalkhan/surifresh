@@ -4,20 +4,20 @@ import "./Dips.css";
 const dipsData = [
   {
     id: 1,
-    frontImage: "/src/assets/dip1.jpg",
-    hoverImage: "/src/assets/dip1H.jpg",
+    frontImage: "/assets/dip1.jpg",
+    hoverImage: "/assets/dip1H.jpg",
     label: "Guacamole",
   },
   {
     id: 2,
-    frontImage: "/src/assets/dip2.jpg",
-    hoverImage: "/src/assets/dip2H.jpg",
+    frontImage: "/assets/dip2.jpg",
+    hoverImage: "/assets/dip2H.jpg",
     label: "Peri Peri Hummus",
   },
   {
     id: 3,
-    frontImage: "/src/assets/dip3.avif",
-    hoverImage: "/src/assets/dip3H.jpg",
+    frontImage: "/assets/dip3.avif",
+    hoverImage: "/assets/dip3H.jpg",
     label: "Hummus",
   },
 ];
