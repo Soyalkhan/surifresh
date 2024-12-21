@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
-import "./FAQ.css";
+import "./Faq.css";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
