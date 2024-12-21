@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./HeroSlider.css";
 
 const images = [
-  "/src/assets/b1.avif",
-  "/src/assets/b2.avif",
-  "/src/assets/b3.avif",
-  "/src/assets/b4.avif",
+  "/assets/b1.avif",
+  "/assets/b2.avif",
+  "/assets/b3.avif",
+  "/assets/b4.avif",
 ];
 
 const HeroSlider = () => {
