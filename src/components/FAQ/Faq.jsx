@@ -50,7 +50,7 @@ const FAQ = () => {
 
   return (
     <div className="faq-container">
-      <h1 className="faq-title">FAQs</h1>
+      <h1 className="faq-title"> FAQ's</h1>
       <div className="faq-list">
         {faqData.map((faq, index) => (
           <div key={index} className={`faq-item ${openIndex === index ? "open" : ""}`}>
