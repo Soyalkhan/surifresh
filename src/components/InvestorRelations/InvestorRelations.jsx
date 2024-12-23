@@ -243,7 +243,7 @@ import './InvestorRelations.css';
 // Define menu items with corresponding PDF files
 const menuItems = [
   { name: 'DRHP', file: 'DRHP_Surifresh.pdf' },
-  { name: 'Final Prospectus', file: null },
+  // { name: 'Final Prospectus', file: null },
   {
     name: 'Policies',
     files: [
@@ -268,8 +268,8 @@ const menuItems = [
   { name: 'Director' },
   { name: 'Key Managerial Personnel' },
   { name: 'Management', file: 'Management.pdf' },
-  { name: 'Financial Result', file: null },
-  { name: 'Stock Exchange Intimation', file: null },
+  // { name: 'Financial Result', file: null },
+  // { name: 'Stock Exchange Intimation', file: null },
   { name: 'Investor Grievances', file: null },
 ];
 
@@ -313,7 +313,7 @@ export default function InvestorRelations() {
         </div>
       );
     }
-
+  
     if (activeTab === 'Director') {
       return (
         <div>
@@ -381,7 +381,7 @@ export default function InvestorRelations() {
         </div>
       );
     }
-
+  
     if (activeTab === 'Key Managerial Personnel') {
       return (
         <div>
@@ -415,7 +415,189 @@ export default function InvestorRelations() {
         </div>
       );
     }
+  
+    if (activeTab === 'Investor Grievances') {
+      return (
+        <div>
+          <h2 className="content-title">Investor Grievances</h2>
+          <p>
+            Investors may e-mail their queries/grievances to the Company Secretary & Compliance Officer of the company.
+            The Shareholders are requested to quote the DP & Client ID in all their correspondences.
+          </p>
+          <p>Email: <a href="mailto:cs@surifreshextract.com">cs@surifreshextract.com</a></p>
+        </div>
+      );
+    }
 
+    
+    if (activeTab === 'Committees') {
+      return (
+        <div className="scrollable-section">
+          <h2 className="content-title">Committees</h2>
+    
+          {/* Audit Committee */}
+          <h3>Audit Committee</h3>
+      
+          <table className="committee-table">
+            <thead>
+              <tr>
+                <th>Name of the Director</th>
+                <th>Designation in the Committee</th>
+                <th>Nature of Directorship</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Piyushi Jindal</td>
+                <td>Chairman</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Puneeta Johar</td>
+                <td>Member</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Aashoo Sethi</td>
+                <td>Member</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Sudhir Suri</td>
+                <td>Member</td>
+                <td>Whole Time Director</td>
+              </tr>
+            </tbody>
+          </table>
+        
+    
+          {/* Nomination and Remuneration Committee */}
+          <h3>Nomination and Remuneration Committee</h3>
+         
+          <table className="committee-table">
+            <thead>
+              <tr>
+                <th>Name of the Director</th>
+                <th>Designation in the Committee</th>
+                <th>Nature of Directorship</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Aashoo Sethi</td>
+                <td>Chairman</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Piyushi Jindal</td>
+                <td>Member</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Sidhantt Suri</td>
+                <td>Member</td>
+                <td>Non-Executive Director</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    
+          {/* Stakeholders’ Relationship Committee */}
+          <h3>Stakeholders’ Relationship Committee</h3>
+          
+          <table className="committee-table">
+            <thead>
+              <tr>
+                <th>Name of the Director</th>
+                <th>Designation in the Committee</th>
+                <th>Nature of Directorship</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sidhantt Suri</td>
+                <td>Chairman</td>
+                <td>Non-Executive Director</td>
+              </tr>
+              <tr>
+                <td>Puneeta Johar</td>
+                <td>Member</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Hitin Suri</td>
+                <td>Member</td>
+                <td>Whole Time Director</td>
+              </tr>
+            </tbody>
+          </table>
+        
+    
+          {/* Corporate Social Responsibility Committee */}
+          <h3>Corporate Social Responsibility Committee</h3>
+         
+          <table className="committee-table">
+            <thead>
+              <tr>
+                <th>Name of the Director</th>
+                <th>Designation in the Committee</th>
+                <th>Nature of Directorship</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Puneeta Johar</td>
+                <td>Chairman</td>
+                <td>Independent Director</td>
+              </tr>
+              <tr>
+                <td>Sidhantt Suri</td>
+                <td>Member</td>
+                <td>Non-Executive Director</td>
+              </tr>
+              <tr>
+                <td>Hitin Suri</td>
+                <td>Member</td>
+                <td>Whole Time Director</td>
+              </tr>
+            </tbody>
+          </table>
+        
+    
+          {/* Initial Public Offer Committee */}
+          <h3>Initial Public Offer Committee</h3>
+         
+          <table className="committee-table">
+            <thead>
+              <tr>
+                <th>Name of the Director</th>
+                <th>Designation in the Committee</th>
+                <th>Nature of Directorship</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hitin Suri</td>
+                <td>Chairman</td>
+                <td>Whole Time Director</td>
+              </tr>
+              <tr>
+                <td>Sidhantt Suri</td>
+                <td>Member</td>
+                <td>Non-Executive Director</td>
+              </tr>
+              <tr>
+                <td>Siddhaarth Suri</td>
+                <td>Member</td>
+                <td>Non-Executive Director</td>
+              </tr>
+            </tbody>
+          </table>
+  
+        </div>
+      );
+    }
+    
     const currentItem = menuItems.find((item) => item.name === activeTab);
     if (currentItem?.file) {
       return (
@@ -444,9 +626,10 @@ export default function InvestorRelations() {
         </div>
       );
     }
-
+  
     return <div className="content-title">{activeTab}</div>;
   };
+  
 
   return (
     <div className="investor-relations">

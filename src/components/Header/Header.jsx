@@ -134,7 +134,6 @@ const Header = () => {
             <Link to="/Frozen">
               <li>Frozen Coldpressed Juices</li>
             </Link>
-            
             <Link to="/Dips">
               <li>Dips</li>
             </Link>
@@ -166,14 +165,15 @@ const Header = () => {
             <img src="/assets/main.avif" alt="Primary Logo" />
           </div>
           <div className="mobile-links">
-            <Link to="/Dips" onClick={toggleMenu}>
-              Dips
+
+            <Link to="/Juice" onClick={toggleMenu}>
+            Chilled Coldpressed Juices
             </Link>
             <Link to="/Frozen" onClick={toggleMenu}>
             Frozen Coldpressed Juices
             </Link>
-            <Link to="/Juice" onClick={toggleMenu}>
-            Chilled Coldpressed Juices
+            <Link to="/Dips" onClick={toggleMenu}>
+              Dips
             </Link>
             <Link to="/about-us" onClick={toggleMenu}>
               About Us

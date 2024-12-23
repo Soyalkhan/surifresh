@@ -19,9 +19,10 @@ import p14 from "/assets/p14.png";
 import p15 from "/assets/p15.png";
 import p16 from "/assets/p16.png";
 import p17 from "/assets/p17.png";
+import p18 from "/assets/p17.png";
 
 // Array of imported images
-const images = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17];
+const images = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18];
 
 const MarqueeProduct = () => {
   return (

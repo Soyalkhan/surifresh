@@ -1,7 +1,7 @@
 import React from "react";
 import "./Fromorchardtomarket.css";
 import bannerimage1 from '/assets/fcmbanner1.avif'
-import bannerimage2 from '/assets/b4.avif'
+import bannerimage2 from '/assets/newfruit-about-us-b4.jpg'
 
 const fruitData = [
   { image: "/assets/slide1.avif" },
@@ -58,8 +58,10 @@ const brandDataLeft = [
     "/assets/cl6.avif",
     "/assets/cl8.avif",
     "/assets/cl9.png",
-    "/assets/cl10.avif",
+    "/assets/cl10.png",
     "/assets/cl11.png",
+    "/assets/cl12.png",
+    "/assets/cl13.png",
   ];
 
 const Fromorchardtomarket = () => {

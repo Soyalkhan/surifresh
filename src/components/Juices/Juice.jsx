@@ -301,13 +301,14 @@ const Juice = () => {
             className="middle-image"
           />
           <div className="text-b">
-            <h2 className="middle-text">HEALTHY</h2>
-            <h2 className="middle-text-dif">PURE</h2>
+          <h2 className="middle-text">COLDPRESSED</h2>
+            <h2 className="middle-text-dif">HEALTHY</h2>
             <h2 className="middle-text">
               100% <br />
-              NATURAL
+              PURE
             </h2>
             <h2 className="middle-text-dif">FRESH</h2>
+            <h2 className="middle-text">NATURAL</h2>
           </div>
           <img
             src="/assets/juicemid-2.avif"

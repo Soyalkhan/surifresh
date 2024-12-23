@@ -36,7 +36,13 @@ const milestones = [
 const AboutUs = () => {
   return (
     <>
-    <ImageBanner/>
+      <div className="image-banner">
+      <img
+        src="/assets/b4.avif"
+        alt="Banner"
+        className="banner-image"
+      />
+    </div>
     <div className="about-us-container">
       <h1 className="about-us-title">Our Story</h1>
 

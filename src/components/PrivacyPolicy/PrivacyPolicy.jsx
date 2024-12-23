@@ -95,8 +95,8 @@ const PrivacyPolicy = () => {
         </p>
         <p>Contact: 9555720000</p>
 
-        <h2>Related Policies</h2>
-        <div className="policy-list">
+        {/* <h2>Related Policies</h2> */}
+        {/* <div className="policy-list">
           {policies.map((policy, index) => (
             <div className="policy-item-new" key={index}>
               <span>{policy.name}</span>
@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
               </Link>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

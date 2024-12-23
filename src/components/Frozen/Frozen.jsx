@@ -1,4 +1,4 @@
-import React from "react";
+import React, { startTransition } from "react";
 import "./Frozen.css";
 
 const Frozenimages = [
@@ -87,6 +87,49 @@ const Frozen = () => {
         ))}
       </div>
 
+<marquee style={{}}>
+
+      <h2>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#ff8c00"}} className="green">Endless flavor options to enjoy! • </span>
+      <span style={{color:"#8cd17d"}} className="orange">Endless flavor options to enjoy! • </span>
+      </h2>
+
+</marquee>
+      
 
 </div>
 
