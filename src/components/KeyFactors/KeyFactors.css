@@ -65,8 +65,8 @@
 .key-factor-title {
   color: #000;
   font-weight: 400;
-  font-size: 30px; /* Adjusted font size for the title */
-  position: absolute; /* Ensure it stays centered */
+  font-size: 30px; 
+  position: absolute; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Center the title */
@@ -79,9 +79,9 @@
   visibility: hidden;
   color: #000;
   font-size: 1rem;
-  line-height: 1.4; /* Adjust line height for better readability */
+  line-height: 1.4; 
   padding: 0.5rem;
-  text-align: justify; /* Ensures text is justified */
+  text-align: justify; 
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
@@ -100,15 +100,15 @@
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .key-factors-grid {
-    grid-template-columns: 1fr; /* Stack top row vertically on mobile */
+    grid-template-columns: 1fr; 
   }
 
   .key-factors-bottom {
-    flex-direction: column; /* Stack bottom row vertically on mobile */
+    flex-direction: column;
   }
 
   .key-factor {
-    height: auto; /* Adjust height dynamically for content */
+    height: auto; 
     min-height: 150px;
   }
 }
