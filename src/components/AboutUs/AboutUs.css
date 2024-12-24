@@ -80,22 +80,7 @@
     height: 308px;
   }
   
-  /* Filled Box */
-  /* .timeline-box {
-    cursor: pointer;
-    background-color: #ffa500;
-    color: white;
-    padding: 1rem;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 308px;
-    width: 450px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-  } */
+
   .timeline-box {
     cursor: pointer;
     background-color: #ffa500;
@@ -119,15 +104,12 @@
     background-color: #fff;
   }
   
-  /* .timeline-box.left { */
-    /* text-align: right; */
-  /* } */
-  
-  /* .timeline-box.right { */
-    /* text-align: left; */
-  /* } */
-  
-  /* Factory Image */
+  .banner-image-about-us{
+    border-radius: 80px;
+  }
+  .bottom-banner{
+    max-width: 400px;
+  }
   .factory-image {
     padding: 10px;
   }
@@ -140,6 +122,92 @@
     cursor: pointer;
   }
   
+  .about-key-factor {
+    margin-bottom: 50px;
+    position: relative;
+    padding: 1rem;
+    background-color: #ffea47; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+    min-height: 400px; 
+    border-radius: 60px;
+    /* border-top-left-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid transparent;
+  }
+
+  .about-key-factors-container {
+    
+    text-align: center;
+    padding: 3rem 1rem;
+    font-family: "Lato", sans-serif;
+    background-color: #fdfdfd;
+  }
+  
+
+  
+  /* Top Row Grid Layout */
+  .about-key-factors-grid {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Hidden description */
+.about-key-factor-description {
+  opacity: 0;
+  visibility: hidden;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.4; 
+  padding: 0.5rem;
+  /* text-align: justify;  */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+/* Title inside the card */
+.about-key-factor-title {
+  color: #000;
+  font-weight: 400;
+  font-size: 30px; 
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the title */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Hover Effect */
+.about-key-factor:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-color: #ffea47;
+}
+
+/* On hover, show the description and hide the title */
+.about-key-factor:hover .about-key-factor-description {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.about-key-factor:hover .about-key-factor-title {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
   /* Responsive Design */
   @media (max-width: 768px) {
 
@@ -195,5 +263,26 @@
       align-items: center;
       position: relative;
   }
+
+  .about-key-factors-grid {
+    padding: 20px;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 1rem; /* Space between items */
+  }
+
+  .about-key-factor {
+    min-height: auto; /* Adjust height for mobile */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .about-key-factor-title {
+    font-size: 24px; /* Slightly smaller title size for mobile */
+  }
+
+  .about-key-factor-description {
+    font-size: 0.9rem; /* Adjust description font size for readability */
+  }
+
+ 
   }
   

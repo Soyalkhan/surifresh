@@ -33,6 +33,20 @@ const milestones = [
   },
 ];
 
+
+const descPara = [
+  {
+    title: "Our Mission",
+    description:
+      "At Surifresh Extract, our aim is evident: to transform the Indian fruit industry by providing offerings that are pure, nourishing, and eco-friendly. We utilize nature's abundance to craft delicious, wholesome products that cater to the changing tastes of health-conscious individuals.",
+  },
+  {
+    title: "Our Commitment to Quality",
+    description:
+      "Quality is our cornerstone. We meticulously source only the finest fruits, ensuring that each product embodies freshness and purity. Through state-of-the-art technology like High Pressure Processing (HPP), we preserve the natural essence and nutrients of fruits, without resorting to additives or preservatives.",
+  }
+];
+
 const AboutUs = () => {
   return (
     <>
@@ -76,6 +90,25 @@ const AboutUs = () => {
         ))}
       </div>
     </div>
+    <div className="image-banner">
+      <img
+        src="/assets/about-us-bottom-banner.avif"
+        alt="Banner"
+        className="banner-image"
+      />
+    </div>
+   
+
+    <div className="about-key-factors-grid">
+        {descPara.map((factor, index) => (
+          <div className="about-key-factor" key={index}>
+            <div className="about-key-factor-content">
+              <div className="about-key-factor-title">{factor.title}</div>
+              <div className="about-key-factor-description">{factor.description}</div>
+            </div>
+          </div>
+        ))}
+      </div>
     
     </>
   
