@@ -18,7 +18,7 @@
 /* Top Row Grid Layout */
 .key-factors-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -37,7 +37,7 @@
 .key-factor {
   position: relative;
   padding: 1rem;
-  background-color: #ffea47; /* Yellow Background */
+  background-color: #ffea47; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@
   font-weight: 500;
   color: #000;
   border-radius: 10px;
-  min-height: 200px; /* Ensures space for both title and description */
+  min-height: 200px; 
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
   cursor: pointer;
   overflow: hidden;
@@ -81,7 +81,7 @@
   font-size: 1rem;
   line-height: 1.4; 
   padding: 0.5rem;
-  text-align: justify; 
+  /* text-align: justify;  */
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
